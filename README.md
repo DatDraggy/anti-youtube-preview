@@ -1,4 +1,4 @@
-This is experimental and will kill your webserver for a few seconds for some reason I don't understand yet! Use at your own risk at the moment.
+This plugin is in an experimental state. Please report any bugs and use it at your own risk (only thing that happened to me yet that it killed my apache server for a few seconds)
 
 Anti Youtube Preview
 ====================
