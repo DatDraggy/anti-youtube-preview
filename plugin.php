@@ -8,6 +8,9 @@ Author: DatDraggy
 Author URI: https://www.kieran.pw/
 */
 
+//Set to false if you want to remove the entire preview. It will look like this https://puu.sh/txQl4/f221c856d0.png
+//Default is true. https://puu.sh/txQmo/42720f723a.png
+$metapreview = true;
 
 yourls_add_action( 'pre_redirect', 'no_preview_func');
 
@@ -15,10 +18,12 @@ function no_preview_func( $args ) {
 	$location  = $args[0];
 	$code = $args[1];
 	if(substr($location, 0, 23) == "https://www.youtube.com" || substr($location, 0, 16) == "https://youtu.be" ){
-		echo '<meta name="description" content="' . $location . '" />
-				<meta property="og:title" content="Youtube" />
-				<meta property="og:description" content="' . $location . '" />
-				<meta http-equiv="refresh" content="1;URL=' . $location . '">';
+    if ($metapreview){
+		      echo '<meta name="description" content="' . $location . '" />
+				        <meta property="og:title" content="Youtube" />
+				        <meta property="og:description" content="' . $location . '" />';
+    }
+		echo '<meta http-equiv="refresh" content="1;URL=' . $location . '">';
 	}
 	else{
 		//yourls_do_action( 'pre_redirect', $location, $code );
