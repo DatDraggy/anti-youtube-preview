@@ -1,4 +1,4 @@
-This is experimental and will kill your webserver for a few seconds! Use at your own risk at the moment.
+This is experimental and will kill your webserver for a few seconds for some reason I don't understand yet! Use at your own risk at the moment.
 
 Anti Youtube Preview
 ====================
