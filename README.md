@@ -1,4 +1,4 @@
-This plugin is in an experimental state. Please report any bugs and use it at your own risk (only thing that happened to me yet that it killed my apache server for a few seconds)
+Doesn't work correctly. Don't use 
 
 Anti Youtube Preview
 ====================
