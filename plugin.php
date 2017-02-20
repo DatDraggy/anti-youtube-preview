@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Anti Youtube Preview
-Plugin URI: https://github.com/DatDraggy/no-youtube-preview
+Plugin URI: https://github.com/DatDraggy/anti-youtube-preview
 Description: This plugin will remove the yotube preview from telegram and similar websites/programms
 Version: 0.5
 Author: DatDraggy
