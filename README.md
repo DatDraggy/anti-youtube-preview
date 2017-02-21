@@ -1,4 +1,5 @@
-Doesn't work correctly. Don't use 
+Incompatible with 404-redirect
+Loads infinitely long when activating plugins. Plugins will still get activated. (maybe somebody could fix that? No idea why that happens)
 
 Anti Youtube Preview
 ====================
